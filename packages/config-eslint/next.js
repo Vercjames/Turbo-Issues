@@ -32,10 +32,8 @@ module.exports = {
     "node_modules/",
   ],
   overrides: [{ files: ["*.js?(x)", "*.ts?(x)"] }],
-
   // REFERENCE: The change for testing
   rules: {
-    semi: ["error", "always"],
-    quotes: ["error", "single"],
+    semi: ["error", "never"],
   }
 };
